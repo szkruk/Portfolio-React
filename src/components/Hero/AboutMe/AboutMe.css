@@ -1,0 +1,45 @@
+.my-name {
+  color: rgba(8, 206, 193);
+  font-size: 4.4rem;
+  line-height: 4.4rem;
+}
+.left-home {
+  width: 34rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+}
+
+.occupation {
+  font-size: 2.6rem;
+  line-height: 2.86rem;
+  font-weight: 600;
+}
+
+.text-about-me {
+  text-align: center;
+  font-size: 1.4rem;
+  font-size: 400;
+}
+
+.contact-logos {
+  margin-top: 2rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.fa-brands {
+  scale: 3;
+}
+.fa-brands:hover {
+  scale: 3.6;
+  transition: 0.5s ease all;
+}
+
+#me {
+  width: 30rem;
+  height: 30rem;
+  object-fit: contain;
+}
