@@ -1,11 +1,15 @@
 nav {
-  margin: 1rem;
   min-height: 5rem;
   display: flex;
   flex-direction: row;
-  padding: 0 3rem;
+  padding: 1rem 0rem;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  z-index: 1;
 }
 
 .navbar-tab-list {
@@ -14,10 +18,8 @@ nav {
   padding: 0 1rem;
 }
 
-.navbar-tab-list {
-  display: flex;
-  list-style-type: none;
-  padding: 0 1rem;
+ul > li > a.active {
+  text-decoration: underline;
 }
 
 .home-logo {
@@ -84,5 +86,7 @@ nav {
 
 .fa-lightbulb:hover {
   scale: 2.2;
+  cursor: pointer;
+
   transition: 0.5s ease all;
 }

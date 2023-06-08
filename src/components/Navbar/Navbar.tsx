@@ -1,25 +1,39 @@
-import React from 'react';
+import React, { FC } from 'react';
 import './Navbar.css';
+import { fullpageApi } from '@fullpage/react-fullpage';
 
-const Navbar = () => {
+interface NavbarInterface {
+  // fullPageApi: fullpageApi;
+  anchors: string[];
+}
+
+const Navbar: FC<NavbarInterface> = ({ anchors }): JSX.Element => {
   return (
     <nav>
       <div className="home-logo">
         <img src="/images/logo.png" alt="logo" id="logo" />
         <h1>Portfolio</h1>
       </div>
-      <ul className="navbar-tab-list">
+      <ul className="navbar-tab-list" id="myMenu">
         <li className="navbar-tab">
-          <a href="#home">Home</a>
+          <a className="active" data-menuanchor={anchors[0]} href={`#${anchors[0]}`}>
+            Home
+          </a>
         </li>
         <li className="navbar-tab">
-          <a href="#skills">Skills</a>
+          <a data-menuanchor={anchors[1]} href={`#${anchors[1]}`}>
+            Skills
+          </a>
         </li>
         <li className="navbar-tab">
-          <a href="#experience">Experience</a>
+          <a data-menuanchor={anchors[2]} href={`#${anchors[2]}`}>
+            Experience
+          </a>
         </li>
         <li className="navbar-tab">
-          <a href="#projects">Projects</a>
+          <a data-menuanchor={anchors[3]} href={`#${anchors[3]}`}>
+            Projects
+          </a>
         </li>
       </ul>
       <div className="nightMode-resume">

@@ -1,0 +1,6 @@
+#skills {
+  min-height: 60rem;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
