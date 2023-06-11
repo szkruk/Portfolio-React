@@ -1,13 +1,7 @@
 import React, { FC } from 'react';
 import './Navbar.css';
-import { fullpageApi } from '@fullpage/react-fullpage';
 
-interface NavbarInterface {
-  // fullPageApi: fullpageApi;
-  anchors: string[];
-}
-
-const Navbar: FC<NavbarInterface> = ({ anchors }): JSX.Element => {
+const Navbar: FC = (): JSX.Element => {
   return (
     <nav>
       <div className="home-logo">
@@ -16,22 +10,22 @@ const Navbar: FC<NavbarInterface> = ({ anchors }): JSX.Element => {
       </div>
       <ul className="navbar-tab-list" id="myMenu">
         <li className="navbar-tab">
-          <a className="active" data-menuanchor={anchors[0]} href={`#${anchors[0]}`}>
+          <a href='#AboutMe'>
             Home
           </a>
         </li>
         <li className="navbar-tab">
-          <a data-menuanchor={anchors[1]} href={`#${anchors[1]}`}>
+          <a href='#skills' >
             Skills
           </a>
         </li>
         <li className="navbar-tab">
-          <a data-menuanchor={anchors[2]} href={`#${anchors[2]}`}>
+          <a href='#experience'>
             Experience
           </a>
         </li>
         <li className="navbar-tab">
-          <a data-menuanchor={anchors[3]} href={`#${anchors[3]}`}>
+          <a href='#projects'>
             Projects
           </a>
         </li>

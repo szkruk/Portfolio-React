@@ -1,12 +1,30 @@
 import React from 'react';
 import './Skills.css';
-import CarouselComponent from './Carousel/Carousel';
+import data from './carousel.json'
+import CarouselItem from './CarouselItem/CarouselItem';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const Skills = () => {
+  const settings = {
+    dots: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay:true
+  };
+  
   return (
     <section id="skills">
-      <h2 className="heading-of-section">Skills</h2>
-      <CarouselComponent />
+       <Slider {...settings}autoplaySpeed={1200}  className='slider'> 
+        {
+          data.map((skill,index)=>(
+              <CarouselItem alt={skill.name} src={skill.src} key={index}/>
+          )
+          )
+        } 
+      </Slider>
     </section>
   );
 };

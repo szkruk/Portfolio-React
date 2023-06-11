@@ -5,11 +5,10 @@ nav {
   padding: 1rem 0rem;
   align-items: center;
   justify-content: space-around;
-  position: fixed;
   overflow: hidden;
-  width: 100%;
-  top: 0;
   z-index: 1;
+  position: absolute;
+  width: 100%;
 }
 
 .navbar-tab-list {
@@ -24,7 +23,6 @@ ul > li > a.active {
 
 .home-logo {
   height: 5rem;
-  width: 15rem;
   display: flex;
   align-items: center;
 }
@@ -47,7 +45,6 @@ ul > li > a.active {
 }
 
 .nightMode-resume {
-  padding: 0 1rem;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -65,7 +62,7 @@ ul > li > a.active {
 
 .resume-btn {
   padding: 0.6rem 1rem;
-  margin: 0 2.6rem;
+  margin: 0  0 0 2.6rem;
   border-radius: 0.8rem;
   font-size: 1.6rem;
   font-weight: 700;
