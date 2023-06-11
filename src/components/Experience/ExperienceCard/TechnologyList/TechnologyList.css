@@ -1,0 +1,11 @@
+.technologies-tag {
+  font-size: 1.5rem;
+}
+
+.technologies-in-job-wrapper {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  padding: 0 1rem;
+  align-items: center;
+  row-gap: 0.5rem;
+}

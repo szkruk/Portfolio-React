@@ -23,7 +23,6 @@ main {
 
 .heading-of-section {
   font-size: 6rem;
-  padding: 2rem 0;
 }
 
 .first-section {
@@ -33,6 +32,6 @@ main {
   gap: 20rem;
 }
 
-#fp-nav > ul >li >a>span{
+#fp-nav > ul > li > a > span {
   background-color: white;
 }

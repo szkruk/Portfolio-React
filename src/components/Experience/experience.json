@@ -1,0 +1,46 @@
+[
+  {
+    "image_path": "/images/fdko.png",
+    "company_name": "Digital Knovledge Village",
+    "occupation": "Software Developer",
+    "job_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quidem! Tempore illum molestiae repudiandae accusantium voluptates ducimus vitae in est! At a ratione itaque dignissimos facere dolor harum vero possimus",
+    "technologies": [
+      {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        "name": "Python"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg",
+        "name": "OpenCV"
+      }
+    ]
+  },
+  {
+    "image_path": "/images/btp.png",
+    "company_name": "Beside The Park",
+    "occupation": "Junior Software Developer",
+    "job_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quidem! Tempore illum molestiae repudiandae accusantium voluptates ducimus vitae in est! At a ratione itaque dignissimos facere dolor harum vero possimus",
+    "technologies": [
+      {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "name": "Typescript"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "name": "React.js"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+        "name": "GraphQL"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        "name": "Postgres"
+      },
+      {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
+        "name": "Nestjs"
+      }
+    ]
+  }
+]
