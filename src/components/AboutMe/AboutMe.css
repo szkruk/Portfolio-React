@@ -45,7 +45,7 @@
 }
 
 #AboutMe {
-  gap: 10rem;
+  gap: 6rem;
   min-height: 100vh;
   background-image: radial-gradient(
       circle at 97% 32%,

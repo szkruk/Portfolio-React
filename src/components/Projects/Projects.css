@@ -1,0 +1,37 @@
+#projects {
+  justify-content: center;
+  flex-direction: column;
+  height: 45rem;
+  background-image: linear-gradient(90deg, rgb(225, 225, 225), rgb(31, 31, 31)),
+    linear-gradient(
+      45deg,
+      rgb(240, 101, 51) 0%,
+      rgb(240, 101, 51) 33%,
+      rgb(226, 102, 50) 33%,
+      rgb(226, 102, 50) 53%,
+      rgb(212, 103, 49) 53%,
+      rgb(212, 103, 49) 60%,
+      rgb(198, 104, 49) 60%,
+      rgb(198, 104, 49) 73%,
+      rgb(184, 105, 48) 73%,
+      rgb(184, 105, 48) 85%,
+      rgb(170, 106, 47) 85%,
+      rgb(170, 106, 47) 100%
+    ),
+    linear-gradient(
+      135deg,
+      rgb(240, 101, 51) 0%,
+      rgb(240, 101, 51) 33%,
+      rgb(226, 102, 50) 33%,
+      rgb(226, 102, 50) 53%,
+      rgb(212, 103, 49) 53%,
+      rgb(212, 103, 49) 60%,
+      rgb(198, 104, 49) 60%,
+      rgb(198, 104, 49) 73%,
+      rgb(184, 105, 48) 73%,
+      rgb(184, 105, 48) 85%,
+      rgb(170, 106, 47) 85%,
+      rgb(170, 106, 47) 100%
+    );
+  background-blend-mode: overlay, overlay, normal;
+}

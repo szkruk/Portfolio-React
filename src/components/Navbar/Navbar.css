@@ -36,7 +36,7 @@ ul > li > a.active {
 .navbar-tab {
   font-size: 1.9rem;
   font-weight: 600;
-  padding: 0 2rem;
+  padding: 0 1.6rem;
   cursor: pointer;
 }
 .navbar-tab:hover {
@@ -62,7 +62,7 @@ ul > li > a.active {
 
 .resume-btn {
   padding: 0.6rem 1rem;
-  margin: 0  0 0 2.6rem;
+  margin: 0 0 0 2.6rem;
   border-radius: 0.8rem;
   font-size: 1.6rem;
   font-weight: 700;
