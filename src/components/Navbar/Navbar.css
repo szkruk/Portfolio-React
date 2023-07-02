@@ -61,29 +61,17 @@ ul > li > a.active {
 }
 
 .resume-btn {
-  padding: 0.6rem 1rem;
-  margin: 0 0 0 2.6rem;
+  padding: 0.7rem 1.2rem;
   border-radius: 0.8rem;
   font-size: 1.6rem;
   font-weight: 700;
   color: white;
   background: linear-gradient(135deg, rgba(0, 176, 207, 1) 0%, rgba(5, 172, 162, 1) 100%);
   cursor: pointer;
-  border-width: 0;
+  border: 0.1rem solid black;
 }
 
 .resume-btn:hover {
   scale: 1.1;
-  transition: 0.5s ease all;
-}
-
-.fa-lightbulb {
-  scale: 1.9;
-}
-
-.fa-lightbulb:hover {
-  scale: 2.2;
-  cursor: pointer;
-
   transition: 0.5s ease all;
 }

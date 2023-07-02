@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "language": "Typescript",
+    "projects": [
+      {
+        "id": 1,
+        "name": "GraphQL serivce",
+        "media": {
+          "imagePath": "s"
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "language": "Python",
+    "projects": [
+      {
+        "id": 1,
+        "name": "Text Segmentation"
+      },
+      {
+        "id": 2,
+        "name": "Book Spine Recognition"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "language": "C++",
+    "projects": [
+      {
+        "id": 1,
+        "name": "Captain America"
+      },
+      {
+        "id": 2,
+        "name": "Cinema Ticket Vending Machine"
+      },
+      {
+        "id": 3,
+        "name": "Database management system for workshop"
+      }
+    ]
+  }
+]

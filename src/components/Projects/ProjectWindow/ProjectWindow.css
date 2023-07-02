@@ -1,0 +1,12 @@
+.project-window {
+  height: 40rem;
+  background-color: black;
+  width: 70rem;
+  border-radius: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: column;
+  margin: 1rem 0;
+}

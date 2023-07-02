@@ -10,28 +10,19 @@ const Navbar: FC = (): JSX.Element => {
       </div>
       <ul className="navbar-tab-list" id="myMenu">
         <li className="navbar-tab">
-          <a href='#AboutMe'>
-            Home
-          </a>
+          <a href="#AboutMe">Home</a>
         </li>
         <li className="navbar-tab">
-          <a href='#skills' >
-            Skills
-          </a>
+          <a href="#skills">Skills</a>
         </li>
         <li className="navbar-tab">
-          <a href='#experience'>
-            Experience
-          </a>
+          <a href="#experience">Experience</a>
         </li>
         <li className="navbar-tab">
-          <a href='#projects'>
-            Projects
-          </a>
+          <a href="#projects">Projects</a>
         </li>
       </ul>
       <div className="nightMode-resume">
-        <i className="fa-sharp fa-solid fa-lightbulb"></i>
         <button className="resume-btn">Resume</button>
       </div>
     </nav>

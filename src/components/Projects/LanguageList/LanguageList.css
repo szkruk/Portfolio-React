@@ -1,0 +1,24 @@
+.projects-language-list {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  list-style-type: none;
+}
+
+.projects-language-list > li {
+  font-size: 1.4rem;
+  min-width: 7rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.active-language {
+  font-weight: 900;
+  text-decoration: underline;
+  text-underline-offset: 0.6rem;
+}
+
+.selected-language:hover {
+  scale: 1.1;
+  cursor: pointer;
+}

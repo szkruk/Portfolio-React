@@ -1,0 +1,12 @@
+.project-list {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  list-style-type: none;
+}
+.project-list > li {
+  font-size: 1.5rem;
+  font-weight: 500;
+  max-width: 20rem;
+  text-align: center;
+}

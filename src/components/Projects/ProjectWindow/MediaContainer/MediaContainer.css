@@ -1,0 +1,7 @@
+.media-wrapper {
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: red;
+}
