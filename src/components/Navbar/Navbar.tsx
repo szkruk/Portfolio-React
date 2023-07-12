@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import './Navbar.css';
 
 const Navbar: FC = (): JSX.Element => {

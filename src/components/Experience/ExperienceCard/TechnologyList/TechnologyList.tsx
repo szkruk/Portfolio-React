@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import './TechnologyList.css';
 import { Technology } from '../ExperienceCard';
 import TechnologyItem from './TechnologyItem/TechnologyItem';

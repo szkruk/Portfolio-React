@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Projects.css';
 import LanguageList from './LanguageList/LanguageList';
 import ProjectWindow from './ProjectWindow/ProjectWindow';
